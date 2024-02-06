@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Raleway";
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  src: url("./assets/fonts/Raleway.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  font-style: italic;
+  src: url("./assets/fonts/Raleway-Italic.ttf");
+}
